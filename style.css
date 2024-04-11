@@ -462,7 +462,7 @@ footer .cols .news-col form input{
     color: var(--text-color);
     border: none;
     padding: 0 65px 0 24px;
-    border-radius: 16px;
+    border-radius: 50px;
     font-weight: 400;
     font-size: 13px;
 }
