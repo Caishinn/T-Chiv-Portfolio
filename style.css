@@ -387,7 +387,7 @@ footer .start p{
     border: 1px solid skyblue;
     cursor: pointer;
     padding: 8px 20px;
-    border-radius: 100px;
+    border-radius: 16px;
     transition: all 0.3s ease;
 }
 .btn-do-this a{
@@ -461,8 +461,8 @@ footer .cols .news-col form input{
     background: #212529;
     color: var(--text-color);
     border: none;
-    padding: 0 65px 0 24px;
-    border-radius: 50px;
+    padding: 0 65px 0 16px;
+    border-radius: 16px;
     font-weight: 400;
     font-size: 13px;
 }
@@ -474,7 +474,7 @@ footer .cols .news-col form button{
     height: 50px;
     background: var(--main-color);
     border: none;
-    border-radius: 50%;
+    border-radius: 16px;
     position: absolute;
     top: 0;
     right: 0;
