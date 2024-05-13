@@ -19,7 +19,7 @@
 body {
   background-color: var(--bg-color);
   min-height: 100vh;
-  z-index: auto;
+  z-index: 100;
 }
 
 /*--------header--------*/
@@ -132,7 +132,6 @@ span {
   transform: scale(1.05);
   transition: 0.3s ease-in-out;
 }
-
 /*--------text animation--------*/
 
 .title span {
