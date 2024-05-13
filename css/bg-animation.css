@@ -1,7 +1,7 @@
 /*--------bg animation--------*/
 
 body {
-  background-image: url(/img/backG.png);
+  background: url(/img/backG.png);
   min-height: 100vh;
 }
 .boxes {
