@@ -1,9 +1,5 @@
 /*--------bg animation--------*/
 
-body {
-  background: url(/img/backG.png);
-  min-height: 100vh;
-}
 .boxes {
   position: fixed;
   top: 0;
