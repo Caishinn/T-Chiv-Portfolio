@@ -17,7 +17,8 @@
   --main-color: #616e77;
 }
 body {
-  background: url(./bg-animation.css);
+  background: url(/img/backG.png);
+  min-height: 100vh;
 }
 
 /*--------header--------*/
