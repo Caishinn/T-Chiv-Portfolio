@@ -11,13 +11,13 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --bg-color: #212529;
+  --bg-color: #1c1e22;
   --second-bg-color: #131313;
   --text-color: white;
   --main-color: #616e77;
 }
 body {
-  background-color: var(--bg-color);
+  background: url(/img/backG.png);
   min-height: 100vh;
   z-index: 100;
 }
@@ -269,9 +269,10 @@ span {
 
 /*--------ABout Me--------*/
 
-section {
+/*section {
   background-color: var(--bg-color);
-}
+  
+}*/
 
 /*--------Seprator--------*/
 
