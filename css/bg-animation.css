@@ -1,3 +1,5 @@
+/*--------bg animation--------*/
+
 .boxes {
   position: fixed;
   top: 0;
@@ -8,19 +10,19 @@
 }
 .particle {
   position: fixed;
-  width: 5px;
-  height: 5px;
-  background-color: rgb(52, 118, 184);
+  width: 3.5px;
+  height: 3.5px;
+  background-color: rgb(52, 85, 184);
   animation: moveParticle linear infinite;
   pointer-events: none;
 }
 @keyframes moveParticle {
   0% {
     transform: translateY(0) translateX(0);
-    opacity: 1;
+    opacity: 0.85;
   }
   100% {
-    transform: translateY(-30vh) translateX(calc(-100vw + 100%));
+    transform: translateY(-50vh) translateX(calc(-50vw + 50%));
     opacity: 0;
   }
 }

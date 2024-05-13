@@ -19,6 +19,7 @@
 body {
   background-color: var(--bg-color);
   min-height: 100vh;
+  z-index: auto;
 }
 
 /*--------header--------*/
