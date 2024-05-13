@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     particle.className = "particle";
     particle.style.left = Math.random() * window.innerWidth + "px";
     particle.style.top = Math.random() * window.innerHeight + "px";
-    particle.style.animationDuration = Math.random() * 4 + 1 + "s";
+    particle.style.animationDuration = Math.random() * 15 + 15 + "s";
     particleContainer.appendChild(particle);
 
     particle.addEventListener("animationend", () => {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const spawnParticles = () => {
-    setInterval(createParticle, 500);
+    setInterval(createParticle, 100);
   };
 
   spawnParticles();
