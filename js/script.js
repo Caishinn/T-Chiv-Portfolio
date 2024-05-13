@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const spawnParticles = () => {
-    setInterval(createParticle, 250);
+    setInterval(createParticle, 150);
   };
 
   spawnParticles();
