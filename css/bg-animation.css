@@ -13,14 +13,14 @@
   width: 2px;
   height: 2px;
   border-radius: 50%;
-  background-color: rgba(225, 237, 255, 0.754);
+  background-color: rgba(225, 237, 255, 0.78);
   animation: moveParticle linear infinite;
   pointer-events: none;
 }
 @keyframes moveParticle {
   0% {
     transform: translateY(0) translateX(0);
-    opacity: 0.3;
+    opacity: 0.35;
   }
   50% {
     transform: translateY(50vh) translateX(calc(-30vw + 100%));
