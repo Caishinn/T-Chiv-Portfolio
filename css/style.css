@@ -11,17 +11,19 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --bg-color: #1c1e22;
+  --bg-color: #090909;
   --second-bg-color: #131313;
   --text-color: white;
   --main-color: #616e77;
 }
 body {
   background-color: var(--bg-color);
-  background-image: url("../img/bg_main.jpg");
+  background-image: url("../img/bgm.jpg");
   background-size: cover;
+  background-position: center;
   min-height: 100vh;
 }
+
 /*--------header--------*/
 
 .navbar {
@@ -103,7 +105,7 @@ span {
 .main h2 {
   color: var(--text-color);
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .main h2 span {
   color: var(--main-color);
@@ -112,7 +114,6 @@ span {
 .main p.title {
   font-size: 2.7rem;
   font-weight: 600;
-  color: var(--text-color);
   margin-top: 0.5rem;
 }
 .main p.subtitle {
@@ -134,11 +135,36 @@ span {
 }
 /*--------text animation--------*/
 
+.home {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.home p {
+  margin: 0;
+  overflow: hidden;
+}
+.home p span {
+  font-size: 28px;
+  color: var(--main-color);
+  font-weight: 700;
+  display: inline-block;
+  line-height: 46px;
+  display: none;
+}
 .title span {
   position: relative;
 }
-.title span::before {
-  content: "UI & UX DESINGER";
+.title span.text-in {
+  display: block;
+  animation: textIn 0.5s ease;
+}
+.title span.text-out {
+  display: block;
+  animation: textOut 0.5s ease;
+}
+/*.title span::before {
+  content: attr(span);
   color: var(--main-color);
   animation: words 20s infinite;
 }
@@ -148,16 +174,32 @@ span {
   position: absolute;
   width: calc(100% + 8px);
   height: 100%;
-  border-left: 3px solid var(--bg-color);
+  border-left: 3px solid transparent var(--bg-color);
   right: -8px;
   animation: cursor 0.6s infinite, typing 20s infinite;
-}
-/*@keyframes cursor{
-    to{
-        border-left: 2px solid var(--main-color);
-    }
 }*/
-@keyframes words {
+/*@keyframes cursor {
+  to {
+    text-decoration: underline solid var(--main-color);
+  }
+}*/
+@keyframes textIn {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes textOut {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+/*@keyframes words {
   0%,
   20% {
     content: "UI & UX DESIGNER";
@@ -203,7 +245,7 @@ span {
   85% {
     width: calc(100% + 8px);
   }
-}
+}*/
 
 /*--------more info--------*/
 
