@@ -17,7 +17,9 @@
   --main-color: #616e77;
 }
 body {
-  background-image: url("../img/BackGround.png");
+  background-color: var(--bg-color);
+  background-image: url("../img/bg_main.jpg");
+  background-size: cover;
   min-height: 100vh;
 }
 /*--------header--------*/
