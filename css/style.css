@@ -18,7 +18,7 @@
 }
 body {
   background-color: var(--bg-color);
-  background-image: url("../img/bgm.jpg");
+  background-image: url("../img/bg.pdf");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
