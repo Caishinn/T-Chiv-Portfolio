@@ -18,7 +18,7 @@
 }
 body {
   background-color: var(--bg-color);
-  background-image: url("../img/bg.png");
+  background-image: url("../img/main.png");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
